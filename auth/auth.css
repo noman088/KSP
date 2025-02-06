@@ -1,0 +1,69 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #e5e7eb;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    /* Full viewport height */
+}
+
+.container-div {
+    background-color: white;
+    /* Light background color */
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 650px;
+    /* Maximum width for the form */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; /* Optional: Adds some shadow */
+}
+
+.heading-div {
+    text-align: center;
+}
+
+.row input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.row button {
+    width: 100%;
+    padding: 10px;
+    background-color: #85898e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: x-large;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.row button:hover {
+    background-color: #6c7580;
+}
+
+span {
+    font-size: 4.1vh;
+    font-weight: bolder;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    color: #70818a;
+}
